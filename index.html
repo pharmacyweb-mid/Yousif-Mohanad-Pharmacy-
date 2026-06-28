@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صيدلية يوسف مهند عبد الستار</title>
-    <!-- استدعاء خط Cairo لدعم اللغة العربية بشكل جميل -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
-    <!-- استدعاء مكتبة الأيقونات -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -36,7 +34,6 @@
             padding: 0 20px;
         }
 
-        /* --- Header & Logo --- */
         header {
             text-align: center;
             padding: 30px 0;
@@ -73,7 +70,6 @@
             margin: 0 15px;
         }
 
-        /* --- Hero Section --- */
         .hero {
             background-color: var(--primary-green);
             border-radius: 20px;
@@ -121,7 +117,6 @@
             cursor: default;
         }
 
-        /* --- Quick Links Grid --- */
         .links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -175,7 +170,6 @@
             color: var(--secondary-gold);
         }
 
-        /* --- Features Section --- */
         .features {
             display: flex;
             flex-wrap: wrap;
@@ -207,7 +201,6 @@
             color: #666;
         }
 
-        /* --- Working Hours --- */
         .working-hours {
             background-color: var(--primary-green);
             border-radius: 20px;
@@ -262,7 +255,6 @@
             direction: ltr;
         }
 
-        /* --- Footer --- */
         footer {
             background-color: var(--primary-green);
             color: var(--white);
@@ -329,7 +321,6 @@
             opacity: 0.8;
         }
 
-        /* --- Responsive Design for Mobile --- */
         @media (max-width: 768px) {
             .working-hours {
                 flex-direction: column;
@@ -365,7 +356,6 @@
 <body>
 
     <div class="container">
-        <!-- Header -->
         <header>
             <div class="logo-area">
                 <h1>صيدلية يوسف مهند عبد الستار</h1>
@@ -375,7 +365,6 @@
 
         <div class="divider">نهتم بصحتك</div>
 
-        <!-- Hero Section -->
         <section class="hero">
             <h2>مرحبًا بك في صيدليتنا</h2>
             <p>جميع احتياجاتك الصحية في مكان واحد<br>أدوية موثوقة . عناية أفضل . صحة تدوم</p>
@@ -384,40 +373,38 @@
             </div>
         </section>
 
-        <!-- Quick Links (تم وضع الروابط بشكل صحيح هنا) -->
+        <!-- روابط الأزرار -->
         <section class="links-grid">
-            <!-- الواتساب (يمكنك إضافة الرقم لاحقاً مكان علامة #) -->
-            <a href="#" class="link-card light">
-                <i class="fa-brands fa-whatsapp"></i>
-                <h3>واتساب</h3>
-                <span>WhatsApp</span>
-            </a>
             
-            <!-- الموقع على الخريطة -->
             <a href="https://maps.app.goo.gl/edXCrNAe4c2atiEK6" target="_blank" class="link-card green">
                 <i class="fa-solid fa-location-dot"></i>
                 <h3>الموقع</h3>
                 <span>Our Location</span>
             </a>
 
-            <!-- إنستغرام -->
             <a href="https://www.instagram.com/yousif_pharmcy?igsh=MWw4Y2hucmd5aDYwMA==" target="_blank" class="link-card light">
                 <i class="fa-brands fa-instagram"></i>
                 <h3>إنستغرام</h3>
                 <span>Instagram</span>
             </a>
 
-            <!-- فيسبوك (تم استبدال الاتصال المباشر بالفيسبوك) -->
             <a href="https://www.facebook.com/share/1CcnRUAh1F/" target="_blank" class="link-card green">
                 <i class="fa-brands fa-facebook-f"></i>
                 <h3>فيسبوك</h3>
                 <span>Facebook</span>
             </a>
+
+            <!-- زر الإيميل (استبدل email@example.com بإيميل الصيدلية الحقيقي) -->
+            <a href="mailto:email@example.com" class="link-card light">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>راسلنا</h3>
+                <span>Email Us</span>
+            </a>
+
         </section>
 
         <div class="divider">لماذا تختارنا؟</div>
 
-        <!-- Features -->
         <section class="features">
             <div class="feature-item">
                 <i class="fa-solid fa-tags"></i>
@@ -446,7 +433,7 @@
             </div>
         </section>
 
-        <!-- Working Hours (تم ترتيب الأوقات بشكل صحيح) -->
+        <!-- أوقات العمل المحدثة -->
         <section class="working-hours">
             <div class="hours-title">
                 <i class="fa-regular fa-clock"></i>
@@ -455,7 +442,7 @@
             <div class="hours-details">
                 <div class="hour-row">
                     <span class="day">الأحد - الخميس</span>
-                    <span class="time">2:00 PM - 12:00 AM</span>
+                    <span class="time">3:00 PM - 12:00 AM</span>
                 </div>
                 <div class="hour-row" style="margin-top: 15px;">
                     <span class="day">الجمعة</span>
@@ -469,13 +456,11 @@
         </section>
     </div>
 
-    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <div class="footer-address">
                 <i class="fa-solid fa-location-dot" style="font-size: 1.5rem; color: var(--secondary-gold);"></i>
                 <div style="text-align: right;">
-                    <!-- تم تعديل العنوان كما طلبت -->
                     <div style="font-weight: 700;">العراق - الموصل</div>
                     <div style="font-size: 0.85rem; font-weight: 400; opacity: 0.9;">حي القاهرة - مقابيل سنتر بلاش</div>
                 </div>
@@ -487,18 +472,18 @@
             </div>
 
             <div class="social-links">
-                <!-- أضفت الروابط الخاصة بك هنا أيضاً في أسفل الصفحة -->
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:email@example.com"><i class="fa-regular fa-envelope"></i></a>
                 <a href="https://www.facebook.com/share/1CcnRUAh1F/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/yousif_pharmcy?igsh=MWw4Y2hucmd5aDYwMA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://maps.app.goo.gl/edXCrNAe4c2atiEK6" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
             </div>
         </div>
         <div class="copyright">
-            &copy; جميع الحقوق محفوظة للصيدلية يوسف مهند عبد الستار 2025<br>
+            &copy; جميع الحقوق محفوظة لصيدلية يوسف مهند عبد الستار 2025<br>
             <span style="color: var(--secondary-gold);">تصميم وتطوير بمودة 💛</span>
         </div>
     </footer>
 
 </body>
 </html>
+
