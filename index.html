@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>صيدلية يوسف مهند عبد الستار</title>
+    <!-- استدعاء خط Cairo لدعم اللغة العربية بشكل جميل -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- استدعاء مكتبة الأيقونات -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -83,7 +85,6 @@
             overflow: hidden;
         }
 
-        /* إضافة تأثير النقاط في الخلفية (اختياري لمحاكاة التصميم) */
         .hero::before {
             content: '.........\A.........\A.........';
             white-space: pre;
@@ -356,7 +357,7 @@
                 display: grid;
             }
             .feature-item:last-child {
-                grid-column: span 2; /* Center the last odd item */
+                grid-column: span 2; 
             }
         }
     </style>
@@ -364,6 +365,7 @@
 <body>
 
     <div class="container">
+        <!-- Header -->
         <header>
             <div class="logo-area">
                 <h1>صيدلية يوسف مهند عبد الستار</h1>
@@ -373,6 +375,7 @@
 
         <div class="divider">نهتم بصحتك</div>
 
+        <!-- Hero Section -->
         <section class="hero">
             <h2>مرحبًا بك في صيدليتنا</h2>
             <p>جميع احتياجاتك الصحية في مكان واحد<br>أدوية موثوقة . عناية أفضل . صحة تدوم</p>
@@ -381,34 +384,40 @@
             </div>
         </section>
 
+        <!-- Quick Links (تم وضع الروابط بشكل صحيح هنا) -->
         <section class="links-grid">
-            <a href="https://wa.me/رقم_الهاتف" class="link-card light">
+            <!-- الواتساب (يمكنك إضافة الرقم لاحقاً مكان علامة #) -->
+            <a href="#" class="link-card light">
                 <i class="fa-brands fa-whatsapp"></i>
                 <h3>واتساب</h3>
                 <span>WhatsApp</span>
             </a>
             
-            <a href="رابط_خرائط_جوجل" class="https://maps.app.goo.gl/edXCrNAe4c2atiEK6">
+            <!-- الموقع على الخريطة -->
+            <a href="https://maps.app.goo.gl/edXCrNAe4c2atiEK6" target="_blank" class="link-card green">
                 <i class="fa-solid fa-location-dot"></i>
                 <h3>الموقع</h3>
                 <span>Our Location</span>
             </a>
 
-            <a href="رابط_الانستغرام" class="https://www.instagram.com/yousif_pharmcy?igsh=MWw4Y2hucmd5aDYwMA==">
+            <!-- إنستغرام -->
+            <a href="https://www.instagram.com/yousif_pharmcy?igsh=MWw4Y2hucmd5aDYwMA==" target="_blank" class="link-card light">
                 <i class="fa-brands fa-instagram"></i>
                 <h3>إنستغرام</h3>
                 <span>Instagram</span>
             </a>
 
-            <a href="tel:رقم_الهاتف" class="https://www.instagram.com/yousif_pharmcy?igsh=MWw4Y2hucmd5aDYwMA==">
-                <i class="fa-solid fa-phone-volume"></i>
-                <h3>اتصال مباشر</h3>
-                <span>Call Now</span>
+            <!-- فيسبوك (تم استبدال الاتصال المباشر بالفيسبوك) -->
+            <a href="https://www.facebook.com/share/1CcnRUAh1F/" target="_blank" class="link-card green">
+                <i class="fa-brands fa-facebook-f"></i>
+                <h3>فيسبوك</h3>
+                <span>Facebook</span>
             </a>
         </section>
 
         <div class="divider">لماذا تختارنا؟</div>
 
+        <!-- Features -->
         <section class="features">
             <div class="feature-item">
                 <i class="fa-solid fa-tags"></i>
@@ -437,6 +446,7 @@
             </div>
         </section>
 
+        <!-- Working Hours (تم ترتيب الأوقات بشكل صحيح) -->
         <section class="working-hours">
             <div class="hours-title">
                 <i class="fa-regular fa-clock"></i>
@@ -444,26 +454,30 @@
             </div>
             <div class="hours-details">
                 <div class="hour-row">
-                    <span class="day">الخميس</span>
-                    <span class="time">3:00 PM - 12:00 AM<br>4:00 PM - 10:00 PM</span>
+                    <span class="day">الأحد - الخميس</span>
+                    <span class="time">2:00 PM - 12:00 AM</span>
                 </div>
                 <div class="hour-row" style="margin-top: 15px;">
                     <span class="day">الجمعة</span>
-                    <span class="time">4:00 PM – 8:00 AM</span>
+                    <span class="time">4:00 PM - 8:00 PM</span>
+                </div>
+                <div class="hour-row" style="margin-top: 15px;">
                     <span class="day">السبت</span>
-                    <span class="time">12:00 PM – 12:00 AM</span>
+                    <span class="time">12:00 PM - 12:00 AM</span>
                 </div>
             </div>
         </section>
     </div>
 
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <div class="footer-address">
                 <i class="fa-solid fa-location-dot" style="font-size: 1.5rem; color: var(--secondary-gold);"></i>
                 <div style="text-align: right;">
-                    <div style="font-weight: 700;">العراق - موصل</div>
-                    <div style="font-size: 0.85rem; font-weight: 400; opacity: 0.9;">حي القاهرة - مقابيل سنتر بلاش 10</div>
+                    <!-- تم تعديل العنوان كما طلبت -->
+                    <div style="font-weight: 700;">العراق - الموصل</div>
+                    <div style="font-size: 0.85rem; font-weight: 400; opacity: 0.9;">حي القاهرة - مقابيل سنتر بلاش</div>
                 </div>
             </div>
             
@@ -473,10 +487,11 @@
             </div>
 
             <div class="social-links">
+                <!-- أضفت الروابط الخاصة بك هنا أيضاً في أسفل الصفحة -->
                 <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-solid fa-phone"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.facebook.com/share/1CcnRUAh1F/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/yousif_pharmcy?igsh=MWw4Y2hucmd5aDYwMA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://maps.app.goo.gl/edXCrNAe4c2atiEK6" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
             </div>
         </div>
         <div class="copyright">
